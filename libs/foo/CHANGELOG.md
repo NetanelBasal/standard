@@ -1,4 +1,13 @@
 My lib change log
+# [1.7.0](https://github.com/NetanelBasal/standard/compare/foo-1.6.0...foo-1.7.0) (2022-01-16)
+
+
+### Features
+
+* add 7 ([6385c72](https://github.com/NetanelBasal/standard/commit/6385c729f03aafee9f3ae8ee70727d6e87466694))
+
+
+
 # [1.6.0](https://github.com/NetanelBasal/standard/compare/foo-1.5.0...foo-1.6.0) (2022-01-16)
 
 
