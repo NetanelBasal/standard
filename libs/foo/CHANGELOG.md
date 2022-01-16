@@ -1,4 +1,13 @@
 My lib change log
+# [1.9.0](https://github.com/NetanelBasal/standard/compare/foo-1.8.1...foo-1.9.0) (2022-01-16)
+
+
+### Features
+
+* 🎸 add a number ([47d8834](https://github.com/NetanelBasal/standard/commit/47d88346920d8967185cc7204049629ce38dd959))
+
+
+
 ## [1.8.1](https://github.com/NetanelBasal/standard/compare/foo-1.8.0...foo-1.8.1) (2022-01-16)
 
 
