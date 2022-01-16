@@ -1,2 +1,2 @@
 export * from './lib/foo.module';
-console.log(5);
+console.log(6);
