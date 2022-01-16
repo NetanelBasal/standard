@@ -2,6 +2,15 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [1.5.0](https://github.com/NetanelBasal/standard/compare/foo-1.4.0...foo-1.5.0) (2022-01-16)
+
+
+### Features
+
+* add five ([1e42316](https://github.com/NetanelBasal/standard/commit/1e4231687fa39d5792c524f83c8265b6418abe4a))
+
+
+
 # [1.4.0](https://github.com/NetanelBasal/standard/compare/foo-1.3.0...foo-1.4.0) (2022-01-16)
 
 
