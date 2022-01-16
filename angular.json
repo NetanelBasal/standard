@@ -1,6 +1,54 @@
 {
   "version": 1,
   "projects": {
+    "foo": {
+      "projectType": "library",
+      "root": "libs/foo",
+      "sourceRoot": "libs/foo/src",
+      "prefix": "lib-standard-version",
+      "architect": {
+        "build": {
+          "builder": "@nrwl/angular:package",
+          "outputs": ["dist/libs/foo"],
+          "options": {
+            "project": "libs/foo/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "libs/foo/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "libs/foo/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/foo"],
+          "options": {
+            "jestConfig": "libs/foo/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "libs/foo/src/**/*.ts",
+              "libs/foo/src/**/*.html"
+            ]
+          }
+        },
+        "version": {
+          "builder": "@jscutlery/semver:version",
+          "options": {
+            "commitMessageFormat": "chore(${projectName}): release version ${version}"
+          }
+        }
+      },
+      "tags": []
+    },
     "playground": {
       "projectType": "application",
       "root": "apps/playground",
