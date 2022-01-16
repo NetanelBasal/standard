@@ -1,4 +1,18 @@
 My lib change log
+# [1.8.0](https://github.com/NetanelBasal/standard/compare/foo-1.7.0...foo-1.8.0) (2022-01-16)
+
+
+### Bug Fixes
+
+* fix 8 ([ef19226](https://github.com/NetanelBasal/standard/commit/ef19226c81908715ce6279fe01b622c2cd820127))
+
+
+### Features
+
+* add 8 ([8284e23](https://github.com/NetanelBasal/standard/commit/8284e233a07613ce4937eacf13e28915ce0514aa))
+
+
+
 # [1.7.0](https://github.com/NetanelBasal/standard/compare/foo-1.6.0...foo-1.7.0) (2022-01-16)
 
 
