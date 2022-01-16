@@ -58,7 +58,7 @@
           "options": {
             "tag": "${tag}",
             "generateNotes": true,
-            "notesFile": "libs/foo/CHANGELOG.md"
+            "notes": "${notes}"
           }
         }
       },
