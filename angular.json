@@ -57,7 +57,8 @@
           "executor": "@jscutlery/semver:github",
           "options": {
             "tag": "${tag}",
-            "generateNotes": true
+            "generateNotes": true,
+            "notesFile": "libs/foo/CHANGELOG.md"
           }
         }
       },
