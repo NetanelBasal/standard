@@ -12,7 +12,7 @@
   "private": true,
   "config": {
     "commitizen": {
-      "path": "cz-emoji"
+      "path": "git-cz"
     }
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "@angular/router": "~13.1.0",
     "@nrwl/angular": "13.4.5",
     "commitizen": "^4.2.4",
+    "git-cz": "^4.8.0",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
