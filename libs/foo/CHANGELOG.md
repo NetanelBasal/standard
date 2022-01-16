@@ -1,4 +1,8 @@
 My lib change log
+## [1.8.1](https://github.com/NetanelBasal/standard/compare/foo-1.8.0...foo-1.8.1) (2022-01-16)
+
+
+
 # [1.8.0](https://github.com/NetanelBasal/standard/compare/foo-1.7.0...foo-1.8.0) (2022-01-16)
 
 
